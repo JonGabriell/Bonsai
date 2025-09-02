@@ -1,0 +1,30 @@
+{
+  "name": "bonsai-1",
+  "version": "1.0.0",
+  "description": "Bonsai - Sistema de Relatórios em Node.js",
+  "main": "index.js",
+  "scripts": {
+  "start": "node src/app.js",
+  "dev": "nodemon src/app.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonGabriell/Bonsai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonGabriell/Bonsai/issues"
+  },
+  "homepage": "https://github.com/JonGabriell/Bonsai#readme",
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10"
+  }
+}
